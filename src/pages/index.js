@@ -17,8 +17,8 @@ export default function Index({ data }) {
                 <Link to={post.frontmatter.path}>
                   {post.frontmatter.title}
                 </Link>
+                <h2 style={{display:"inline", marginLeft:"10px"}}>{post.frontmatter.date}</h2>
               </h1>
-              <h2>{post.frontmatter.date}</h2>
               <p>{post.excerpt}</p>
             </div>
           );
@@ -32,7 +32,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 100)
           id
           frontmatter {
             title

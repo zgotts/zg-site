@@ -1,8 +1,6 @@
 import Typography from "typography";
-// import fairyGateTheme from "typography-theme-fairy-gates";
+import twinPeaksTheme from "typography-theme-twin-peaks";
 
-// const typography = new Typography(fairyGateTheme);
-
-const typography = new Typography({ baseFontSize: "10px" });
+const typography = new Typography(twinPeaksTheme);
 
 export default typography;
