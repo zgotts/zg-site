@@ -13,11 +13,11 @@ export default function Index({ data }) {
         .map(({ node: post }) => {
           return (
             <div className="blog-post-preview" key={post.id}>
-              <h1>
+              <h1 style={{lineHeight:"0.5rem"}}>
                 <Link to={post.frontmatter.path}>
                   {post.frontmatter.title}
                 </Link>
-                <h2 style={{display:"inline", marginLeft:"10px"}}>{post.frontmatter.date}</h2>
+                <h2 style={{display:"inline", marginLeft:"10px", fontSize:"0.8rem", fontWeight:"100"}}>{post.frontmatter.date}</h2>
               </h1>
               <p>{post.excerpt}</p>
             </div>

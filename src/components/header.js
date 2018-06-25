@@ -19,7 +19,8 @@ const Header = ({ siteTitle }) => (
       <h1 style={{ 
         margin: 0,
         textAlign: 'center',
-        fontSize: '18px'
+        fontSize: '18px',
+        lineHeight: '0.5rem'
         }}>
         <Link
           to="/"
