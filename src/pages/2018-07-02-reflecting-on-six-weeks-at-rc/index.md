@@ -1,0 +1,25 @@
+---
+path: "/reflecting-on-six-weeks-at-rc"
+date: "2018-07-02"
+title: "Reflecting on six weeks at the Recurse Center"
+---
+
+Six weeks ago, I started attending the [Recurse Center](https://www.recurse.com/), a RC is a self-guided programmer's retreat based in New York City. I had been wanting to attend RC since I first heard about it in 2012, and this spring I finally felt like I was in position to attend. Moreover, it felt like the perfect thing for me at this juncture of my career.
+
+For most of the past year, I was doing non-technical work as a Team Lead at a growing startup company in New York City. Prior to that I was the main front-end developer at that same company. In my new role, I tried to stay involved in the code as much as I could, but the focus of that role was mostly on non-technical matters. 
+
+Without going too far into the details of the difficulties of the Team / Tech Lead role at tech companies in general (I'll save that for another post), I felt that it was too soon for me to move away from technical work. There was so much more I wanted to learn and build, and it would have been difficult to make that happen entirely outside of work while working full-time. I felt that the Recurse Center was the perfect opportunity to press the reset button and get back to writing code. As you might guess, I was ecstatic to have been accepted into this great community!
+
+On the first day of my batch, the founders gave an opening address in which they expressed that the primary intent for RC is to give people the resources to become "dramatically better" programmers. This may seem like an obvious goal for anyone at a programming retreat, but it isn't entirely clear what that means when there is no real agenda or curriculum to follow. At RC, your education is driven by your own curiosity and by your interactions with your fellow attendees. With so many different paths to take, success can mean a number of different things.
+
+In addition to emphasizing the goal to become "dramatically better programmers," the RC facilitators also expressed four key lightweight rules that go a long way to express and shape the culture of the community and the space. The underlying message of all of these rules is that judgmental behavior of any sort is not tolerated. This is a fantastic baseline for RC because it creates a culture where people are free to share thoughts and ideas and ask questions without fear of criticism or being seen as beneath other people. And that sort of culture is exactly the sort that can greatly assist in one's journey to becoming a better programmer.
+
+Being reminded to explore and experiment RC and being given the opportunity to do that without penalty has gotten me thinking about the Zen Buddhist concept of shoshin, which roughly translates to "beginner's mind." In the book Zen Mind, Beginner's Mind, author and Zen teacher Shunryu Suzuki notes that "in the beginner's mind there are many possibilities, in the expert's mind there are few." The idea is that through the development of expertise, we begin to formulate a specific idea of the world around us and begin to move away from the more open and inquisitive mindset we had at the beginning. We develop preconceived notions that may alter how we approach new endeavors, or whether or not we take on new endeavors at all.
+
+I find the concept of "beginner's mind" to be an incredibly valuable reminder for how I can best approach my learning at RC and beyond. I have five years of experience as a web developer, but there is still a lot more that I am interested to learn. Going deeper into new areas of programming is simultaneously exciting and daunting, especially at 32. In choosing what to focus on at RC, I have already experienced some doubts about whether I'm focusing on the "right" thing or doing things the "right" way. 
+
+But I know that sort of thinking is extremely limiting, and so in these first six weeks I have begun to re-frame my approach to programming and my goals for what I want to do at RC and beyond. I came in thinking that my experience at RC had a specific end goal, some grand project that I'd finish in the final weeks of my batch and be able to show off as "proof" of my newfound knowledge. Instead, my goal is to reshape my approach to programming by returning to my beginner's mind and accepting the discomfort of struggle that comes with learning complex concepts and new skills. 
+
+I have started this new path by diving into Rust, a systems programming language that is quite different from Javascript, the language that I am most experienced in. Through learning and building things with Rust, I intend to move into new territory and learn programming and computer science concepts that I have not yet learned or at least do not yet understand deeply. On top that, the [Rust Core Team's 2018 roadmap](https://blog.rust-lang.org/2018/03/12/roadmap.html) listed WebAssembly as one of the four primary target domains for this year. the Rust, so it is exciting to be getting a glimpse of what might be the future of web programming.
+
+Onwards into new territory!
