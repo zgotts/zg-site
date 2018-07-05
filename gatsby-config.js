@@ -8,9 +8,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     {
-      resolve: `gatsby-plugin-feed`
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
