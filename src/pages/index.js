@@ -17,8 +17,8 @@ export default function Index({ data }) {
                 <Link to={post.frontmatter.path}>
                   {post.frontmatter.title}
                 </Link>
-                <h2 style={{display:"inline", marginLeft:"10px", fontSize:"0.8rem", fontWeight:"100"}}>{post.frontmatter.date}</h2>
               </h1>
+              <h2 style={{display:"inline", marginLeft:"10px", fontSize:"0.8rem", fontWeight:"100"}}>{post.frontmatter.date}</h2>
             </div>
           );
         })}
