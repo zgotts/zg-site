@@ -1,5 +1,20 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
+
+const HeaderLink = () => {
+
+}
+
+const style = {
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'center',
+  color: 'white',
+  transition: 'color 0.2s ease-out',
+  paddingLeft: 15,
+  paddingRight: 15,
+  fontWeight: 300,
+}
 
 const Header = ({ siteTitle }) => (
   <div
@@ -13,14 +28,17 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: '0 auto',
         maxWidth: 980,
-        padding: '1.45rem 1.0875rem',
+        padding: '1.5rem 1rem',
+        display: 'flex',
+        flexDirection: 'row'
       }}
     >
       <h1 style={{ 
         margin: 0,
-        textAlign: 'center',
+        textAlign: 'left',
         fontSize: '18px',
-        lineHeight: '0.5rem'
+        display: 'inline-block',
+        flex: '2 0 auto'
         }}>
         <Link
           to="/"
@@ -32,6 +50,16 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <nav
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          flex: '1 0 auto',
+          justifyContent: 'space-between'
+        }}>
+        <Link to="/">Home</Link>
+        <Link to="/about/">About</Link>
+      </nav>
     </div>
   </div>
 )

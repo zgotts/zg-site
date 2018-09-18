@@ -4,42 +4,10 @@ import Helmet from "react-helmet";
 
 import "../styles/blog-listing.css";
 
-export default function Index({ data }) {
-  const { edges: posts } = data.allMarkdownRemark;
+export default function Index() {
   return (
-    <div className="blog-posts">
-      {posts
-        .filter(post => post.node.frontmatter.title.length > 0)
-        .map(({ node: post }) => {
-          return (
-            <div className="blog-post-preview" key={post.id}>
-              <h1 style={{lineHeight:"0.5rem"}}>
-                <Link to={post.frontmatter.path}>
-                  {post.frontmatter.title}
-                </Link>
-              </h1>
-              <h2 style={{display:"inline", marginLeft:"10px", fontSize:"0.8rem", fontWeight:"100"}}>{post.frontmatter.date}</h2>
-            </div>
-          );
-        })}
+    <div>
+      <h1>Welcome to Zach Gottlieb's nook of the web.</h1>
     </div>
   )
 }
-
-export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 100)
-          id
-          frontmatter {
-            title
-            date(formatString: "MMMM DD, YYYY")
-            path
-          }
-        }
-      }
-    }
-  }
-`;
