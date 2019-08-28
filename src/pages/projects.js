@@ -1,24 +1,16 @@
-import React from 'react';
+import React from 'react'
+import styles from './projects.module.css'
+import Container from '../components/container'
 
-
-import styles from "./projects.module.css";
-console.log(styles);
-
-
-import Container from '../components/container';
-
-const User = props =>
+const User = props => (
   <div className={styles.user}>
     <img src={props.avatar} className={styles.avatar} alt="" />
     <div className={styles.description}>
-      <h2 className={styles.username}>
-        {props.username}
-      </h2>
-      <p className={styles.excerpt}>
-        {props.excerpt}
-      </p>
+      <h2 className={styles.username}>{props.username}</h2>
+      <p className={styles.excerpt}>{props.excerpt}</p>
     </div>
   </div>
+)
 
 export default () => (
   <Container>
@@ -35,4 +27,4 @@ export default () => (
       excerpt="I'm Bob smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
   </Container>
-);
+)
